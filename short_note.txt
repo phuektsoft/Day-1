@@ -34,3 +34,8 @@ command : git config <param>
 
 >>>> GIT Status
 # ดูสถานะว่าควรทำอะไรต่อไป จะมี note บอกให้
+
+>>>> GIT push
+# อัพโฆลด ขึ้น Github แล้วบอกช่องทาง เช่น github push origin master 
+origin คือช่องทางในการอัพขึ้น 
+master คือ ไว้ที่ไหน 
