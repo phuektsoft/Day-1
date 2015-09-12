@@ -1,15 +1,25 @@
 >>>> GIT LOG 
 # ดู commit ที่เกิดขึ้น ใครเขียน ใครเมื่อไหร่
-git log —oneline 
->git log —stat จะบอกรายละเอียดทั้งหมด 
->git push origin master อัพไป server
->git log —oneline —decorate มีสีสัน
->git log —oneline —decorate —graph  เป็นกราฟ
+>git log —oneline 
 
->git log —stat
->git log -p
->git log —author=up1 ดูว่า ใน Respo เราว่า user นี้กี่ commit
->git log —after=“2015-9-1” สามารถดู ช่วงเวลาได้
+>git log —stat 
+#จะบอกรายละเอียดทั้งหมด 
+
+>git push origin master 
+#อัพไป server
+
+>git log —oneline —decorate 
+#มีสีสัน
+
+>git log —oneline —decorate —graph  
+#เป็นกราฟ
+
+>git log —author=up1 
+#ดูว่า ใน Respo เราว่า user นี้กี่ commit
+
+>git log —after=“2015-9-1” 
+#สามารถดู ช่วงเวลาได้
+
 >git log —before=‘2015-8-30'
->git log —since=2.month.ago —until=
->git log —no-merge
+#ดูว่า ก่อนเมื่อไหร่
+
