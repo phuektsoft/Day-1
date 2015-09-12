@@ -38,3 +38,8 @@ command : git config <param>
 
 >>>> GIT Status
 # ดูสถานะว่าควรทำอะไรต่อไป จะมี note บอกให้
+#
+>>>> GIT ADD
+# add untrack file to working directory
+command : git add <file>
+> git add hello.txt
