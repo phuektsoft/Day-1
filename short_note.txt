@@ -35,3 +35,6 @@ command : git config <param>
 
 >git log —before=‘2015-8-30'
 #ดูว่า ก่อนเมื่อไหร่
+
+>>>> GIT Status
+# ดูสถานะว่าควรทำอะไรต่อไป จะมี note บอกให้
