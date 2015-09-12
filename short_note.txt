@@ -1,0 +1,18 @@
+* waka time
+***** Always write a great commit message 
+
+### command git pattern 
+> git <command> <param>
+
+## command 
+> git init <directory>                                                                                              >> init git to directory 
+> git status                                                                                                        >> check status of current repository which show somethings changed
+> git config <param>                                                                                                >> to check or edit config of git 
+> git add <file>                                                                                                    >> add file to current git repository
+> git commit                                                                                                        >> commit current stage to current git repository
+> git log [ --oneline, --decorate, --graph, --author, --grep, --after, --before, --since, --until]                  >> show log of current git repository
+> git diff (--cached)                                                                                               >> show different of current stage and old stage
+> git checkout -- <file>                                                                                            >> discard change in working directory
+> git remote <action> <name remote> url                                                                             >> add remote to current working directory
+> git push 
+> git pull
