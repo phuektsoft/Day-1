@@ -6,3 +6,28 @@ command : git config <param>
 # set name of git user in local
 > git config --global user.email "email of user"
 # set email of git user in local
+
+>>>> GIT LOG 
+# ดู commit ที่เกิดขึ้น ใครเขียน ใครเมื่อไหร่
+>git log —oneline 
+
+>git log —stat 
+#จะบอกรายละเอียดทั้งหมด 
+
+>git push origin master 
+#อัพไป server
+
+>git log —oneline —decorate 
+#มีสีสัน
+
+>git log —oneline —decorate —graph  
+#เป็นกราฟ
+
+>git log —author=up1 
+#ดูว่า ใน Respo เราว่า user นี้กี่ commit
+
+>git log —after=“2015-9-1” 
+#สามารถดู ช่วงเวลาได้
+
+>git log —before=‘2015-8-30'
+#ดูว่า ก่อนเมื่อไหร่
