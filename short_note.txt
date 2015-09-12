@@ -43,3 +43,8 @@ command : git config <param>
 # add untrack file to working directory
 command : git add <file>
 > git add hello.txt
+
+>>>> GIT push
+# อัพโฆลด ขึ้น Github แล้วบอกช่องทาง เช่น github push origin master 
+origin คือช่องทางในการอัพขึ้น 
+master คือ ไว้ที่ไหน 
